@@ -19,6 +19,7 @@ body {
 /* estilo header */
 
 header {
+    text-align: center;
     margin-top: 40px;
     color: white;
 }
@@ -28,7 +29,8 @@ header {
     color: rgb(255, 255, 255);
     border: 2px dotted rgb(255, 255, 255);
     height: 80%;
-    width: 380px;
+    width: 378px;
+
     display: flex;
     flex-flow: column wrap;
     align-items: center;
