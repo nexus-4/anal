@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Converter temperatura</title>
+</head>
+<body>
+
+    <header>
+        <h1>CONVERTA TEMPERATURA</h1>
+    </header>
+
+    <section id="container">
+        <form id="formDiv" method="post">
+            <fieldset>
+                <legend>Escolha uma opção: </legend>
+
+                <label for="opcao">Celsius to Fahrenheit</label>
+                <input type="radio" name="opcao" id="opcao1" checked>
+
+                <label for="opcao"> Fahrenheit to Celsius </label>
+                <input type="radio" name="opcao" id="opcao2">
+            </fieldset>
+        </form>
+
+        <div id="userInputDiv">
+            <input type="number" name="temperaturaTexto" id="userInput" placeholder="ºT">
+            <input type="button" value="Converter" id="userInputBtn" onclick="converter()">
+
+        </div>
+
+        <div id="resultadoDiv">
+
+        </div>
+    </section>
+
+    <footer>
+        <p> Feito por <a href="https://github.com/nexus-4">Antonio Gleyser</a></p>
+
+    </footer>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
