@@ -15,6 +15,7 @@ body {
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center; 
+    overflow: hidden;
 }
 /* estilo header */
 
